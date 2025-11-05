@@ -1,0 +1,59 @@
+{
+    "title": "我的blog",
+    "author" : "yu",
+    "description" : "我的blog",
+    "language" : "zh-hans",
+    "plugins": [
+        "-sharing",
+        "-lunr",
+        "-search",
+        "-highlight",
+        "search-pro@2.0.2",
+        "expandable-chapters@0.2.0",
+        "edit-link@^2.0.2",
+        "tbfed-pagefooter@0.0.1",
+        "lightbox@1.1.0",
+        "favicon@0.0.2",
+        "splitter@0.0.8",
+        "prism@2.4.0",
+        "github@2.0.0",
+        "anchor-navigation-ex",
+        "page-treeview",
+        "back-to-top-button"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": false
+        },
+        "favicon": {
+            "shortcut": "asset/img/favicon.ico",
+            "bookmark": "asset/img/favicon.ico",
+            "appleTouch": "asset/img/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "asset/img/favicon.ico",
+                "180x180": "asset/img/favicon.ico"
+            }
+        },
+        "edit-link": {
+            "base": "//github.com/yulilong/my_blog/edit/master",
+            "label": "编辑此页面"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"",
+            "modify_label": "文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "prism": {
+            "css": [
+              "prismjs/themes/prism-tomorrow.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/yulilong/my_blog"
+        }
+    }
+}
